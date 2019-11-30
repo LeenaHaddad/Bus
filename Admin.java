@@ -12,6 +12,7 @@ public class Admin {
      public static void loginAdmin() throws Exception { //Begin of login admin method.
 
         Scanner input = new Scanner(System.in);
+	System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&");
 
         System.out.println("Enter the User name :");
         String user_name = input.next();
